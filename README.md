@@ -18,23 +18,8 @@ CHAT_ID	   Telegram 聊天ID	      123456789
 不需要telegram通知可不配置
 ```
 
-使用方法
 2. GitHub Actions 自动运行
-脚本会自动每60天执行一次
-
-1. 本地运行
-bash
-# 安装依赖
-npm install
-
-#### 安装 Playwright 浏览器
-npx playwright install chromium
-
-#### 设置环境变量并运行
-ACCOUNTS="user1,pass1;user2,pass2" \
-BOT_TOKEN="your_token" \
-CHAT_ID="your_chat_id" \
-npm start
+脚本会自动每60天执行一次,可手动执行
 
 ### 注意事项
 1. 确保 Netlib 账户密码正确
